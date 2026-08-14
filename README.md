@@ -1,7 +1,5 @@
-# █▓▒░  Hola, mundo!
+# **Juan Fuentes**  
 
-
-Soy **Juan Fuentes**  
 Docente universitario · Tecnólogo Creativo · Diseñador Web
 
 Más de **15 años de experiencia en desarrollo web full-stack**, trabajo entre la intersección de *Arte* ✦ diseño ✺ `<código>`.
