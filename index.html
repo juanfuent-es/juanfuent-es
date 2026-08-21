@@ -1,16 +1,120 @@
+
+<!--
+    @author: JuanFuent.es - Open Source Project
+    All Rights Reversed. Copyleft 2025.
+    Licensed under GNU GPLv3 - 
+    @see './LICENSE' file for details.
+-->
 <!DOCTYPE html>
-<html lang="es-LA">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Fuent.es</title>
+    <title>JuanFuent.es | Web Craft Developer</title>
+    <!-- 
+    Favicon Generator: Real Favicon Generator
+    @see: https://realfavicongenerator.net
+    -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="apple-mobile-web-app-title" content="JuanFuent.es" />
+    <link rel="manifest" href="./static/site.webmanifest" />
+    <!-- 
+     @metadata: OpenGraph
+     @desc: The Open Graph protocol enables any web page to become a rich object in a social graph
+     @see: https://ogp.me/
+     -->
+    <meta name="title"                      content="JuanFuent.es - Web Developer & Creative Technologist">
+    <meta name='image'                      content='https://juanfuent.es/JuanFuent.es.logotype.png'>
+    <meta name='description'                content='Specializing in innovative digital experiences through experimental web technologies, ensuring scalable and tailored web application solutions.'>
+    <meta name='keywords'                   content='fullstack, web developer, typography, webgl'>
+    <link rel="canonical"                   href="https://juanfuent.es/">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:site_name"           content="JuanFuent.es" />
+    <meta property="og:locale"              content="en"/>
+    <meta property='og:type'                content='website'>
+    <meta property='og:title'               content='Web Developer & Creative Technologist'>
+    <meta property='og:image'               content='https://juanfuent.es/juanfuent.es.og.png'>
+    <meta property="og:image:type"          content="image/png"/>
+    <meta property="og:image:width"         content="1200"/>
+    <meta property="og:image:height"        content="640"/>
+    <meta property='og:image'               content='https://juanfuent.es/juanfuent.es-wa.png' itemprop="image">
+    <meta property='og:description'         content='Specializing in innovative digital experiences through experimental web technologies, ensuring scalable and tailored web application solutions.'>
+    <meta property="og:url"                 content="https://juanfuent.es/">
+    <!--
+     @metadata: Twitter Cards
+     @desc: With X Cards, you can attach rich photos, videos and media experiences to Tweets, helping to drive traffic to your website. 
+     @see: https://developer.x.com/en/docs/x-for-websites/cards/overview/markup
+     -->
+    <meta property="twitter:card"           content="summary_large_image">
+    <meta property="twitter:url"            content="https://juanfuent.es/">
+    <meta property="twitter:title"          content="Web Developer & Creative Technologist">
+    <meta property="twitter:description"    content="Specializing in innovative digital experiences through experimental web technologies, ensuring scalable and tailored web application solutions.">
+    <meta property="twitter:image"          content="https://juanfuent.es/static/juanfuent.es.open-graph.png">
+    <!-- 
+    # Normalize.css
+    # A modern, HTML5-ready alternative to CSS resets
+    # @see: https://necolas.github.io/normalize.css
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <link rel="stylesheet" href="https://juanfuent.es/src/style.css"> -->
+     <style>
+        body {
+                background-color: #121212;
+    color: #faf0e6;
+        }
+        a {
+            color: inherit;
+        }
+     </style>
 </head>
 <body>
-    <h1>Juan Fuent.es</h1>
-    <p>WebCraft Developer.
-        <br><b>Code</b> + <i>Design</i>.
-        <br>From Scratch.
-    </p>
-    <p>Diseño y desarrollo digital, exploración de tecnologías web experimentales para crear experiencias memorables.</p>
+    <header>
+        <a href="">
+            <img src="https://juanfuent.es/img/juanfuent.es.c-symbol.svg" alt="Cabrera Symbol" width="80">
+        </a>
+    </header>
+    <main>
+        <h1><img src="https://juanfuent.es/img/juanfuent.es-logo.svg" alt="JuanFuent-es Logo" width="200"></h1>
+        <p>WebCraft Developer <br><small>Code & Design. From Scratch.</small></p>
+        <p>Exploración de tecnologías web experimentales para crear experiencias memorables.</p>
+    </main>
+    <footer>
+        <div class="container">
+            <ul id="license-info">
+                <li>
+                    <a href="/" aria-label="Home">
+                        <img src="https://juanfuent.es/img/juanfuent.es-logo.svg" alt="JuanFuent.es Logotype" height="14" width="108" id="logotype">
+                    </a>
+                </li>
+                <li>
+                    <a href="./LICENSE" aria-label="See LICENSE Details" id="license" target="_blank">
+                        <!-- <span><i class="reversed" >©</i> Copyleft 2025</span>
+                        <span>All Rights <i class="reversed">R</i>eversed</span> -->
+                        <i class="reversed" id="copyleft-symbol">©</i> 
+                        <div id="reversed-info">
+                            <span id="copyleft-txt">Copyleft 2025</span>
+                            <span id="all-rights-reversed">All Rights <i class="reversed">R</i>eversed</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <nav id="networks-container">
+                <a class="network-link" target="_blank" title="JuanFuent.es on Codepen" href="http://codepen.io/juanFuentes">
+                    <i class="icon codepen"></i>
+                </a>
+                <a class="network-link" target="_blank" title="JuanFuent.es on Github" href="https://github.com/JuanFuent-es">
+                    <i class="icon github"></i>
+                </a>
+                <a class="network-link" target="_blank" title="JuanFuent.es on Instagram" href="https://instagram.com/JuanFuent.es">
+                    <i class="icon instagram"></i>
+                </a>
+                <a class="network-link" target="_blank" title="JuanFuent.es on Behance" href="https://behance.net/JuanFuentes">
+                    <i class="icon behance"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
 </body>
 </html>
