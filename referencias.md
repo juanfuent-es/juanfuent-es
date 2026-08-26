@@ -27,9 +27,6 @@
 * **Guillaume Colombel** — El portfolio como demostración de craft digital
   https://guillaumecolombel.fr/
 
-* **Bruno Simon** — La navegación como demostración de la propia práctica
-  https://bruno-simon.com/
-
 * **Studio Dumbar / DEMO** — Identidad visual convertida en comportamiento
   https://studiodumbar.com/work/demo
 
